@@ -8,3 +8,5 @@
 ### NextJS에 타입스크립트 적용하기
 
 [참고 페이지](https://sheldhe93.tistory.com/41?category=1171926)
+
+- Navigation Bar Updated (May 19th)
