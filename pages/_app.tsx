@@ -1,26 +1,8 @@
-import { AppProps } from "next/app";
-import { NextPage } from "next";
-import { createGlobalStyle, ThemeProvider } from "styled-components";
-import theme from "utils/theme";
+import '../styles/globals.css'
+import { AppProps } from 'next/app'
 
-const GlobalStyle = createGlobalStyle`
-	
-	body {
-		padding: 0;
-		margin: 0;
-		font-family: SpoqaHanSans-kr, Roboto, -apple-system, BlinkMacSystemFont, Segoe UI,  Oxygen,
-			Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	}
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
 }
-`;
 
-const MyApp: NextPage<AppProps> = ({ Component, pageProps }: AppProps) => {
-	return (
-		<ThemeProvider theme={theme}>
-			<Component {...pageProps} />
-			<GlobalStyle />
-		</ThemeProvider>
-	);
-};
-
-export default MyApp;
+export default MyApp
