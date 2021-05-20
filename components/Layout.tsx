@@ -21,7 +21,7 @@ const Layout: React.FC<TITLE> = ({ children, title }) => {
             <Grid container item>
               <Grid item xs={3}>
                 <div className="bg-white h-10 m-1 p-2 flex justify-center items-center rounded">
-                  Navigation Bar 1
+                  <Link href="/color">color</Link>
                 </div>
               </Grid>
               <Grid item xs={3}>
