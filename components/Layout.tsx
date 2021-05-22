@@ -16,7 +16,7 @@ const Layout: React.FC<TITLE> = ({ children, title }) => {
       <header>
         <nav
           style={{ backgroundColor: "#268300" }}
-          className="w-screen h-24 topNav"
+          className="w-screen h-24 px-4"
         >
           <Grid container>
             <Grid item xs={1}>

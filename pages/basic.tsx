@@ -7,7 +7,7 @@ const color = () => {
   return (
     <Layout title="Color">
       <div>
-        <Grid container>
+        <Grid container className="m-4">
           <Grid item container xs={4} className="flex">
             <Grid item xs={12} className="flex justify-center top-0">
               <button className="text-3xl font-bold px-4 m-2 rounded h-16 cursor-default border-4 border-yellow-900">
@@ -17,7 +17,7 @@ const color = () => {
             <Grid
               item
               xs={12}
-              className="p-4 h-screen text-center justify-center items-center"
+              className="p-4 h-screen text-center justify-center items-center text-2xl"
             >
               교배(種付け)
               <VscTriangleDown className="m-auto" />
@@ -52,7 +52,7 @@ const color = () => {
                   src="/images/basic/gran_alegria_640.jpg"
                   width={640}
                   height={480}
-                  alt="dear brown horse"
+                  alt="dear brown colored horse"
                 />
               </div>
             </Grid>
@@ -64,7 +64,7 @@ const color = () => {
                 src="/images/basic/stella_velocie_640.jpg"
                 width={640}
                 height={480}
-                alt="blue black horse"
+                alt="blue black colored horse"
               />
             </Grid>
             <Grid
@@ -79,7 +79,7 @@ const color = () => {
                 src="/images/basic/cool_cat_640.jpg"
                 width={640}
                 height={480}
-                alt="blue black horse"
+                alt="blue black colored horse"
               />
             </Grid>
             <Grid item xs={6} className="flex flex-col justify-center items-center">
@@ -90,7 +90,7 @@ const color = () => {
                 src="/images/basic/cesario_640.jpg"
                 width={640}
                 height={480}
-                alt="blue black horse"
+                alt="blue black colored horse"
               />
             </Grid>
             <Grid item xs={6} className="flex flex-col justify-center items-center">
@@ -101,7 +101,7 @@ const color = () => {
                 src="/images/basic/smile_kana_640.jpg"
                 width={640}
                 height={480}
-                alt="gray horse"
+                alt="gray colored horse"
               />
             </Grid>
             <Grid item xs={6} className="flex flex-col justify-center items-center">
@@ -112,18 +112,30 @@ const color = () => {
                 src="/images/basic/ho_o_amazon_640.jpg"
                 width={640}
                 height={480}
-                alt="chest-nut horse"
+                alt="chest-nut colored horse"
               />
             </Grid>
             <Grid item xs={6} className="flex flex-col justify-center items-center">
               <button className="bg-yellow-900 text-white text-4xl font-bold px-4 m-2 rounded h-16 cursor-default">
                 진한밤색(栃栗毛)
               </button>
+              <Image
+                src="/images/basic/sakura_laurel_640.jpg"
+                width={640}
+                height={480}
+                alt="dark chest-nut colored horse"
+              />
             </Grid>
             <Grid item xs={6} className="flex flex-col justify-center items-center">
               <button className="border-4 border-black-900 text-black text-4xl font-bold px-4 m-2 rounded h-16 cursor-default">
                 흰색(白毛)
               </button>
+              <Image
+                src="/images/basic/sodashi_640.png"
+                width={640}
+                height={480}
+                alt="white colored horse"
+              />
             </Grid>
           </Grid>
         </Grid>
