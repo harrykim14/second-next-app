@@ -17,25 +17,48 @@ const color = () => {
             <Grid
               item
               xs={12}
-              className="p-4 h-screen text-center justify-center items-center text-2xl"
+              className="p-4 h-1/2 text-center justify-center items-center text-2xl"
             >
               교배(種付け)
+              <div className="opacity-0 animate-fade-in-down-1">
               <VscTriangleDown className="m-auto" />
               태어남
+              </div>
+              <div className="opacity-0 animate-fade-in-down-2">
               <VscTriangleDown className="m-auto" />
               젖떼기
+              </div>
+              <div className="opacity-0 animate-fade-in-down-3">
               <VscTriangleDown className="m-auto" />
               기초체력 단련
+              </div>
+              <div className="opacity-0 animate-fade-in-down-4">
               <VscTriangleDown className="m-auto" />
               재갈, 뱃대끈, 장제, 승마 길들이기 등의 조교
+              </div>
+              <div className="opacity-0 animate-fade-in-down-5">
               <VscTriangleDown className="m-auto" />
-              트레이닝 센터로 들어감
+              트레이닝 센터 입사(入舎)
+              </div>
+              <div className="opacity-0 animate-fade-in-down-6">
               <VscTriangleDown className="m-auto" />
               데뷔
+              </div>
+              <div className="opacity-0 animate-fade-in-down-7">
               <VscTriangleDown className="m-auto" />
               레이스
+              </div>
+              <div className="opacity-0 animate-fade-in-down-8">
               <VscTriangleDown className="m-auto" />
               은퇴
+              </div>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              className="p-4 h-1/2 text-center justify-center items-center text-2xl"
+            >
+
             </Grid>
           </Grid>
           <Grid item container xs={8}>
